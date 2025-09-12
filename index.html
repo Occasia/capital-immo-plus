@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Capital Immo Plus – Sauvetage Immobilier & Real Estate Know-How</title>
+	<link rel="icon" type="image/png" href="/images/Capital Immo Plus Logo.png" />
+
+	<!-- Tailwind CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+		rel="stylesheet" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					fontFamily: {
+						sans: ["Inter", "ui-sans-serif", "system-ui"],
+					},
+					colors: {
+						brand: {
+							DEFAULT: "#111827", // gray-900
+							accent: "#0EA5E9", // sky-500
+						},
+					},
+					boxShadow: {
+						card: "0 4px 14px rgb(0 0 0 / 8%)",
+					},
+				},
+			},
+			future: { hoverOnlyWhenSupported: true },
+		};
+	</script>
+	<meta name="description"
+		content="Capital Immo Plus helps homeowners in distress protect their property, guides first-time buyers, and shares real estate expertise. Serving Laval & Montréal." />
+</head>
+
+<body class="min-h-screen bg-white text-gray-800 font-sans antialiased selection:bg-black selection:text-white">
+	<!-- Navigation -->
+	<header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
+		<nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+			<a href="#top" class="flex items-center gap-2 font-extrabold tracking-tight text-xl transition">
+				<img src="/images/Capital Immo Plus Logo.png" alt="Capital Immo Plus" class="h-16 w-auto" />
+			</a>
+			<div class="hidden md:flex items-center gap-8 text-sm text-gray-600">
+				<a href="#services" class="hover:text-black transition" data-i18n="nav.services">Services</a>
+				<a href="#about" class="hover:text-black transition" data-i18n="nav.about">About</a>
+				<a href="#contact" class="hover:text-black transition" data-i18n="nav.contact">Contact</a>
+			</div>
+			<div class="flex items-center gap-3">
+				<button id="lang-toggle" type="button"
+					class="inline-flex items-center rounded-md border border-gray-300 bg-white px-3 py-1.5 text-xs font-semibold text-gray-900 hover:bg-gray-50">EN</button>
+				<a href="#contact"
+					class="inline-flex items-center rounded-md bg-black px-4 py-2 text-sm font-semibold text-white shadow hover:bg-gray-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20"
+					data-i18n="nav.consultation">
+					Book Consultation
+				</a>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Hero -->
+	<section id="top" class="bg-gray-50">
+		<div
+			class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24 grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
+			<div>
+				<h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight text-gray-900 leading-tight" data-i18n="hero.title">
+					💡 Sauvetage Immobilier & Real Estate Know-How That Works for You
+				</h1>
+				<p class="mt-6 text-gray-600 max-w-xl" data-i18n="hero.desc">
+					At Capital Immo Plus, we help people in financial distress protect their homes, guide first-time buyers to make smart choices, and share real-life real estate experience to set you up for success.
+				</p>
+				<div class="mt-8 flex flex-wrap items-center gap-3">
+					<a href="#contact"
+						class="inline-flex items-center justify-center rounded-md bg-black px-5 py-2.5 text-white text-sm font-semibold shadow hover:bg-gray-900 focus:outline-none focus-visible:ring-2 focus-visible:ring-black/20"
+						data-i18n="hero.consultation">
+						👉 Book a Free Consultation
+					</a>
+					<a href="#about"
+						class="inline-flex items-center justify-center rounded-md border border-gray-300 px-5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100"
+						data-i18n="hero.learnMore">
+						Learn More
+					</a>
+				</div>
+			</div>
+			<div class="relative">
+				<div class="aspect-[4/3] w-full overflow-hidden rounded-xl border border-gray-200 bg-white shadow-card">
+					<img src="/images/real_estate.jpg"
+						alt="Real estate consultation and property management" class="h-full w-full object-cover" loading="lazy" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Market Research Promo Banner -->
+	<section id="promo" class="relative bg-cover bg-center bg-no-repeat text-white scroll-mt-16" style="background-image: url('/images/market_research.jpg');">
+		<!-- Grayscale overlay -->
+		<div class="absolute inset-0 bg-black/60 grayscale-[0.3]"></div>
+		<!-- Content -->
+		<div class="relative z-10 mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-16 text-center">
+			<h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight" data-i18n="promo.title">Ongoing Campaign – Market Research</h2>
+			<p class="mt-4 text-gray-200 max-w-3xl mx-auto" data-i18n="promo.desc">
+				We're inviting 20 tenants and future first-time buyers to join a 30-minute online session to share their real estate concerns and ideas.<br>
+				You'll receive $20 compensation for your time.
+			</p>
+			<div class="mt-8">
+				<a href="#contact"
+					class="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-black text-sm font-semibold shadow hover:bg-gray-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white/20"
+					data-i18n="promo.apply">
+					Apply Now to Join the Research
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Services -->
+	<section id="services" class="bg-white scroll-mt-16">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+			<div class="text-center max-w-3xl mx-auto">
+				<h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-gray-900" data-i18n="services.title">
+					Our Services
+				</h2>
+				<p class="mt-3 text-gray-600" data-i18n="services.desc">
+					We provide comprehensive real estate solutions tailored to your specific needs and situation.
+				</p>
+			</div>
+
+			<div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+				<!-- Card 1 -->
+				<div class="rounded-xl border border-gray-200 bg-white p-6 shadow-card">
+					<div class="h-10 w-10 rounded-lg bg-black text-white flex items-center justify-center">
+						<!-- Home icon -->
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
+							<path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+						</svg>
+					</div>
+					<h3 class="mt-4 font-semibold text-gray-900" data-i18n="service1.title">Sauvetage Immobilier</h3>
+					<p class="mt-2 text-sm text-gray-600" data-i18n="service1.desc">
+						Support for homeowners facing foreclosure, legal notices, or financial difficulties. Customized strategies to protect property and equity.
+					</p>
+				</div>
+
+				<!-- Card 2 -->
+				<div class="rounded-xl border border-gray-200 bg-white p-6 shadow-card">
+					<div class="h-10 w-10 rounded-lg bg-black text-white flex items-center justify-center">
+						<!-- Education icon -->
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
+							<path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+						</svg>
+					</div>
+					<h3 class="mt-4 font-semibold text-gray-900" data-i18n="service2.title">Mini Trainings & Workshops</h3>
+					<p class="mt-2 text-sm text-gray-600" data-i18n="service2.desc">
+						Short, practical sessions to demystify real estate. Learn about financing, property maintenance, and investment strategies.
+					</p>
+				</div>
+
+				<!-- Card 3 -->
+				<div class="rounded-xl border border-gray-200 bg-white p-6 shadow-card">
+					<div class="h-10 w-10 rounded-lg bg-black text-white flex items-center justify-center">
+						<!-- Chart icon -->
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
+							<path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" />
+						</svg>
+					</div>
+					<h3 class="mt-4 font-semibold text-gray-900" data-i18n="service3.title">Real-Life Investment Experience</h3>
+					<p class="mt-2 text-sm text-gray-600" data-i18n="service3.desc">
+						We share case studies, lessons learned, and real market stories. Practical insights to help you avoid common mistakes.
+					</p>
+				</div>
+
+				<!-- Card 4 -->
+				<div class="rounded-xl border border-gray-200 bg-white p-6 shadow-card">
+					<div class="h-10 w-10 rounded-lg bg-black text-white flex items-center justify-center">
+						<!-- Research icon -->
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-6 w-6">
+							<path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+						</svg>
+					</div>
+					<h3 class="mt-4 font-semibold text-gray-900" data-i18n="service4.title">Market Research Opportunities</h3>
+					<p class="mt-2 text-sm text-gray-600" data-i18n="service4.desc">
+						Participate in our studies as a tenant or future buyer. Share your opinions and get paid for your time.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Who We Are -->
+	<section id="about" class="bg-black text-white">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+			<div class="text-center max-w-4xl mx-auto">
+				<h2 class="text-2xl sm:text-3xl font-extrabold" data-i18n="about.title">Who We Are</h2>
+				<p class="mt-6 text-gray-300 text-lg leading-relaxed" data-i18n="about.intro">
+					Capital Immo Plus is a community-driven real estate firm that combines:
+				</p>
+			</div>
+
+			<div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+				<div class="space-y-6">
+					<div class="flex items-start space-x-4">
+						<div class="flex-shrink-0 w-8 h-8 bg-white text-black rounded-full flex items-center justify-center font-bold">1</div>
+						<div>
+							<h3 class="text-lg font-semibold text-white" data-i18n="about.point1.title">Sauvetage immobilier services</h3>
+							<p class="text-gray-300" data-i18n="about.point1.desc">to help homeowners in distress avoid losing their property from 60 day notices.</p>
+						</div>
+					</div>
+					
+					<div class="flex items-start space-x-4">
+						<div class="flex-shrink-0 w-8 h-8 bg-white text-black rounded-full flex items-center justify-center font-bold">2</div>
+						<div>
+							<h3 class="text-lg font-semibold text-white" data-i18n="about.point2.title">Mini training & workshops</h3>
+							<p class="text-gray-300" data-i18n="about.point2.desc">to give first-time buyers and new investors the right tools to hit the ground running.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="space-y-6">
+					<div class="flex items-start space-x-4">
+						<div class="flex-shrink-0 w-8 h-8 bg-white text-black rounded-full flex items-center justify-center font-bold">3</div>
+						<div>
+							<h3 class="text-lg font-semibold text-white" data-i18n="about.point3.title">Real-world experience</h3>
+							<p class="text-gray-300" data-i18n="about.point3.desc">from seasoned investors who have walked the path before.</p>
+						</div>
+					</div>
+					
+					<div class="flex items-start space-x-4">
+						<div class="flex-shrink-0 w-8 h-8 bg-white text-black rounded-full flex items-center justify-center font-bold">4</div>
+						<div>
+							<h3 class="text-lg font-semibold text-white" data-i18n="about.point4.title">Market research sessions</h3>
+							<p class="text-gray-300" data-i18n="about.point4.desc">where your opinion is valued and rewarded.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mt-12 text-center">
+				<p class="text-xl font-semibold text-white" data-i18n="about.belief">We believe in solutions, education, and empowerment.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- Why Choose Capital Immo Plus -->
+	<section class="bg-gray-50">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 sm:py-20">
+			<div class="text-center max-w-3xl mx-auto">
+				<h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-gray-900" data-i18n="why.title">
+					Why Choose Capital Immo Plus?
+				</h2>
+			</div>
+
+			<div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+				<div class="text-center">
+					<div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-4">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+							<path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+						</svg>
+					</div>
+					<h3 class="text-lg font-semibold text-gray-900 mb-2" data-i18n="why.point1.title">Human-first approach</h3>
+					<p class="text-gray-600 text-sm" data-i18n="why.point1.desc">We listen before we act</p>
+				</div>
+
+				<div class="text-center">
+					<div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-4">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+							<path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+						</svg>
+					</div>
+					<h3 class="text-lg font-semibold text-gray-900 mb-2" data-i18n="why.point2.title">Proven expertise</h3>
+					<p class="text-gray-600 text-sm" data-i18n="why.point2.desc">in distressed property solutions</p>
+				</div>
+
+				<div class="text-center">
+					<div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-4">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+							<path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z"/>
+						</svg>
+					</div>
+					<h3 class="text-lg font-semibold text-gray-900 mb-2" data-i18n="why.point3.title">Education & empowerment</h3>
+					<p class="text-gray-600 text-sm" data-i18n="why.point3.desc">not just transactions</p>
+				</div>
+
+				<div class="text-center">
+					<div class="w-16 h-16 bg-black text-white rounded-full flex items-center justify-center mx-auto mb-4">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="h-8 w-8">
+							<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+						</svg>
+					</div>
+					<h3 class="text-lg font-semibold text-gray-900 mb-2" data-i18n="why.point4.title">Strong local presence</h3>
+					<p class="text-gray-600 text-sm" data-i18n="why.point4.desc">in Laval & Montréal</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- CTA -->
+	<section id="contact" class="bg-white scroll-mt-16">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+			<div class="mx-auto max-w-4xl rounded-2xl border border-gray-200 bg-white p-10 text-center shadow-card">
+				<h3 class="text-xl sm:text-2xl font-extrabold text-gray-900" data-i18n="cta.title">
+					Ready to Make the Right Real Estate Moves?
+				</h3>
+				<p class="mt-3 text-gray-600 max-w-2xl mx-auto" data-i18n="cta.desc">
+					Whatever your real estate situation — distress, first-time buyer, or new investor — we're here to help you make the right moves.
+				</p>
+				<div class="mt-8 flex flex-wrap items-center justify-center gap-4">
+					<a href="mailto:info@veronicapillay.com"
+						class="inline-flex items-center rounded-md bg-black px-6 py-3 text-sm font-semibold text-white shadow hover:bg-gray-900"
+						data-i18n="cta.consultation">
+						Book a Free Consultation
+					</a>
+					<a href="mailto:info@veronicapillay.com"
+						class="inline-flex items-center rounded-md border border-gray-300 px-6 py-3 text-sm font-semibold text-gray-900 hover:bg-gray-100"
+						data-i18n="cta.research">
+						Join the Market Research
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer class="border-t border-gray-100">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
+			<div class="text-center">
+				<h3 class="text-lg font-semibold text-gray-900 mb-2" data-i18n="footer.company">Capital Immo Plus</h3>
+				<div class="text-sm text-gray-600 space-y-1">
+					<p data-i18n="footer.location">📍 Serving Laurentides, Laval & Montréal</p>
+					<p data-i18n="footer.contact">📧 info@veronicapillay.com | ☎️ (438) 921-5169</p>
+					<p class="mt-4 text-xs text-gray-500" data-i18n="footer.copyright">© 2025 Capital Immo Plus – All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- i18n script -->
+	<script>
+		const translations = {
+			"en": {
+				"nav.services": "Services",
+				"nav.about": "About",
+				"nav.contact": "Contact",
+				"nav.consultation": "Book Consultation",
+				"hero.title": "Sauvetage Immobilier & Real Estate Know-How That Works for You",
+				"hero.desc": "At Capital Immo Plus, we help people in financial distress protect their homes, guide first-time buyers to make smart choices, and share real-life real estate experience to set you up for success.",
+				"hero.consultation": "Book a Free Consultation",
+				"hero.learnMore": "Learn More",
+				"promo.title": "Ongoing Campaign – Market Research",
+				"promo.desc": "We're inviting 20 tenants and future first-time buyers to join a 30-minute online session to share their real estate concerns and ideas. You'll receive $20 compensation for your time.",
+				"promo.apply": "Apply Now to Join the Research",
+				"services.title": "Our Services",
+				"services.desc": "We provide comprehensive real estate solutions tailored to your specific needs and situation.",
+				"service1.title": "Sauvetage Immobilier",
+				"service1.desc": "Support for homeowners facing foreclosure, legal notices, or financial difficulties. Customized strategies to protect property and equity.",
+				"service2.title": "Mini Trainings & Workshops",
+				"service2.desc": "Short, practical sessions to demystify real estate. Learn about financing, property maintenance, and investment strategies.",
+				"service3.title": "Real-Life Investment Experience",
+				"service3.desc": "We share case studies, lessons learned, and real market stories. Practical insights to help you avoid common mistakes.",
+				"service4.title": "Market Research Opportunities",
+				"service4.desc": "Participate in our studies as a tenant or future buyer. Share your opinions and get paid for your time.",
+				"about.title": "Who We Are",
+				"about.intro": "Capital Immo Plus is a community-driven real estate firm that combines:",
+				"about.point1.title": "Sauvetage immobilier services",
+				"about.point1.desc": "to help homeowners in distress avoid losing their property from 60 day notices.",
+				"about.point2.title": "Mini training & workshops",
+				"about.point2.desc": "to give first-time buyers and new investors the right tools to hit the ground running.",
+				"about.point3.title": "Real-world experience",
+				"about.point3.desc": "from seasoned investors who have walked the path before.",
+				"about.point4.title": "Market research sessions",
+				"about.point4.desc": "where your opinion is valued and rewarded.",
+				"about.belief": "We believe in solutions, education, and empowerment.",
+				"why.title": "Why Choose Capital Immo Plus?",
+				"why.point1.title": "Human-first approach",
+				"why.point1.desc": "We listen before we act",
+				"why.point2.title": "Proven expertise",
+				"why.point2.desc": "in distressed property solutions",
+				"why.point3.title": "Education & empowerment",
+				"why.point3.desc": "not just transactions",
+				"why.point4.title": "Strong local presence",
+				"why.point4.desc": "in Laval & Montréal",
+				"cta.title": "Ready to Make the Right Real Estate Moves?",
+				"cta.desc": "Whatever your real estate situation — distress, first-time buyer, or new investor — we're here to help you make the right moves.",
+				"cta.consultation": "Book a Free Consultation",
+				"cta.research": "Join the Market Research",
+				"footer.company": "Capital Immo Plus",
+				"footer.location": "📍 Serving Laurentides, Laval & Montréal",
+				"footer.contact": "📧 info@veronicapillay.com | ☎️ (438) 921-5169",
+				"footer.copyright": "© 2025 Capital Immo Plus – All rights reserved"
+			},
+			"fr": {
+				"nav.services": "Services",
+				"nav.about": "À propos",
+				"nav.contact": "Contact",
+				"nav.consultation": "Réserver Consultation",
+				"hero.title": "Sauvetage Immobilier & Savoir-faire Immobilier Qui Fonctionne pour Vous",
+				"hero.desc": "Chez Capital Immo Plus, nous aidons les personnes en détresse financière à protéger leur maison, guidons les premiers acheteurs pour faire des choix intelligents, et partageons l'expérience immobilière réelle pour vous préparer au succès.",
+				"hero.consultation": "Réserver une Consultation Gratuite",
+				"hero.learnMore": "En Savoir Plus",
+				"promo.title": "Campagne en Cours – Recherche de Marché",
+				"promo.desc": "Nous invitons 20 locataires et futurs premiers acheteurs à rejoindre une session en ligne de 30 minutes pour partager leurs préoccupations et idées immobilières. Vous recevrez 20$ de compensation pour votre temps.",
+				"promo.apply": "Postuler Maintenant pour Rejoindre la Recherche",
+				"services.title": "Nos Services",
+				"services.desc": "Nous fournissons des solutions immobilières complètes adaptées à vos besoins et situation spécifiques.",
+				"service1.title": "Sauvetage Immobilier",
+				"service1.desc": "Soutien pour les propriétaires confrontés à la saisie, aux avis légaux ou aux difficultés financières. Stratégies personnalisées pour protéger la propriété et l'équité.",
+				"service2.title": "Mini Formations & Ateliers",
+				"service2.desc": "Sessions courtes et pratiques pour démystifier l'immobilier. Apprenez sur le financement, l'entretien des propriétés et les stratégies d'investissement.",
+				"service3.title": "Expérience d'Investissement Réelle",
+				"service3.desc": "Nous partageons des études de cas, des leçons apprises et des histoires de marché réelles. Des conseils pratiques pour vous aider à éviter les erreurs courantes.",
+				"service4.title": "Opportunités de Recherche de Marché",
+				"service4.desc": "Participez à nos études en tant que locataire ou futur acheteur. Partagez vos opinions et soyez payé pour votre temps.",
+				"about.title": "Qui Nous Sommes",
+				"about.intro": "Capital Immo Plus est une firme immobilière communautaire qui combine :",
+				"about.point1.title": "Services de sauvetage immobilier",
+				"about.point1.desc": "pour aider les propriétaires en détresse à éviter de perdre leur propriété suite à des avis de 60 jours.",
+				"about.point2.title": "Mini formations et ateliers",
+				"about.point2.desc": "pour donner aux premiers acheteurs et nouveaux investisseurs les bons outils pour démarrer rapidement.",
+				"about.point3.title": "Expérience du monde réel",
+				"about.point3.desc": "d'investisseurs chevronnés qui ont parcouru le chemin avant vous.",
+				"about.point4.title": "Sessions de recherche de marché",
+				"about.point4.desc": "où votre opinion est valorisée et récompensée.",
+				"about.belief": "Nous croyons en les solutions, l'éducation et l'autonomisation.",
+				"why.title": "Pourquoi Choisir Capital Immo Plus ?",
+				"why.point1.title": "Approche centrée sur l'humain",
+				"why.point1.desc": "Nous écoutons avant d'agir",
+				"why.point2.title": "Expertise prouvée",
+				"why.point2.desc": "dans les solutions de propriétés en détresse",
+				"why.point3.title": "Éducation et autonomisation",
+				"why.point3.desc": "pas seulement des transactions",
+				"why.point4.title": "Forte présence locale",
+				"why.point4.desc": "à Laval et Montréal",
+				"cta.title": "Prêt à Faire les Bonnes Démarches Immobilières ?",
+				"cta.desc": "Quelle que soit votre situation immobilière — détresse, premier acheteur ou nouvel investisseur — nous sommes là pour vous aider à faire les bons choix.",
+				"cta.consultation": "Réserver une Consultation Gratuite",
+				"cta.research": "Rejoindre la Recherche de Marché",
+				"footer.company": "Capital Immo Plus",
+				"footer.location": "📍 Servant les Laurentides, Laval et Montréal",
+				"footer.contact": "📧 info@veronicapillay.com | ☎️ (438) 921-5169",
+				"footer.copyright": "© 2025 Capital Immo Plus – Tous droits réservés"
+			}
+		}
+
+		function detectPreferredLanguage() {
+			const stored = localStorage.getItem('lang');
+			if (stored && (stored === 'en' || stored === 'fr')) return stored;
+			const preferred = (navigator.languages && navigator.languages.length ? navigator.languages[0] : navigator.language || 'en').toLowerCase();
+			return preferred.startsWith('fr') ? 'fr' : 'en';
+		}
+
+		function applyLanguage(lang) {
+			const dict = translations[lang] || translations.en;
+			document.querySelectorAll('[data-i18n]').forEach((el) => {
+				const key = el.getAttribute('data-i18n');
+				const value = dict[key];
+				if (!value) return;
+				if (el.getAttribute('data-i18n-html') === 'true') {
+					el.innerHTML = value;
+				} else {
+					el.textContent = value;
+				}
+			});
+			document.documentElement.lang = lang;
+			const toggle = document.getElementById('lang-toggle');
+			if (toggle) toggle.textContent = lang.toUpperCase();
+		}
+
+		document.addEventListener('DOMContentLoaded', () => {
+			let lang = detectPreferredLanguage();
+			applyLanguage(lang);
+			const toggle = document.getElementById('lang-toggle');
+			if (toggle) {
+				toggle.addEventListener('click', () => {
+					lang = lang === 'en' ? 'fr' : 'en';
+					localStorage.setItem('lang', lang);
+					applyLanguage(lang);
+				});
+			}
+		});
+	</script>
+</body>
+
+</html>
