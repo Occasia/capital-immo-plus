@@ -1,6 +1,6 @@
 # Meta Ad Copy & Video Scripts (Capital Immo Community)
 
-This document contains the copy and scripts for the **4 ad creatives** to build the waitlist for the **Capital Immo Community**.
+This document contains the copy and scripts for the **3 ad creatives** to build the waitlist for the **Capital Immo Community**.
 
 ---
 
@@ -116,12 +116,12 @@ A clean, modern, split-image graphic:
 ---
 ---
 
-## Creative 3: Facecam Video - Variation A (Focus: Pillar A - First-Time Buyers)
+## Creative 3: Facecam Video (Focus: First-Time Buyers)
 
 ### Video Concept
 * **Speaker**: Veronica Pillay (looking directly into the lens).
 * **Setting**: A bright, professional, and welcoming space (office, clean home background, or in front of local properties).
-* **Length**: ~45-60 seconds.
+* **Length**: ~50-60 seconds.
 * **Style**: Relatable, authentic, direct. Captions/subtitles burned in on screen.
 
 ---
@@ -152,7 +152,7 @@ A clean, modern, split-image graphic:
 > 
 > Les invitations et les places sont envoyées en priorité à la liste. À très bientôt."
 
-#### [EN] English Script
+#### [EN] English Script (Translated)
 > "Many renters in Montreal think they will never be able to buy.
 > 
 > And honestly… I understand them.
@@ -179,54 +179,8 @@ A clean, modern, split-image graphic:
 ---
 
 ### Ad Metadata (Bilingual)
-* **[FR] Headline**: Acheter ton premier foyer à Mtl/Laval? 🔑
+* **[FR] Headline**: Passer de locataire à propriétaire 🔑
 * **[FR] Description**: Rejoins notre liste d'invitation privée.
-* **[EN] Headline**: Buying your first home in Mtl/Laval? 🔑
+* **[EN] Headline**: Transition from renting to owning 🔑
 * **[EN] Description**: Join our private invitation list.
 * **CTA Button**: Sign Up / S'inscrire
-
----
----
-
-## Creative 4: Facecam Video - Variation B (Focus: Pillar B - Aspiring Investors)
-
-### Video Concept
-* **Speaker**: Veronica Pillay (looking directly into the lens).
-* **Setting**: Office or standing in front of a duplex/triplex property.
-* **Length**: ~45-60 seconds.
-* **Style**: Focused, analytical, encouraging. Captions/subtitles burned in.
-
----
-
-### Video Script (Bilingual Tracks)
-
-#### [FR] French Script
-> "Si tu veux investir dans ton premier duplex ou triplex ici à Montréal ou à Laval, c'est pour toi. 
-> 
-> Je crois qu'il n'y a pas assez d'espace pour analyser des deals locaux, parler de cashflow et comprendre les lois du TAL de façon transparente et sans filtre. Alors on l'a bâti. 
-> 
-> On est en train de rassembler des futurs investisseurs immobiliers déterminés pour des ateliers pratiques. Pas de blabla théorique ou de formations bidon à des milliers de dollars. **On ouvre Excel et on décortique tout : comment acheter un plex avant de se sentir prêt, le débat 'Flip ou Hold', ou comment créer de la richesse multigénérationnelle.** Juste de la vraie analyse de fiches MLS, des calculs de rentabilité réels et du partage d'expérience terrain. 
-> 
-> Je suis Veronica Pillay, fondatrice de Capital Immo Plus. On est en train de bâtir la communauté d'investisseurs immobiliers la plus active et solide en ville. 
-> 
-> Si tu veux être dans la salle pour notre prochain atelier pratique gratuit... n'attends pas de voir passer la pub. Rejoins gratuitement notre Liste d'Invitation Privée ci-dessous. C'est là qu'on envoie les invitations en premier. On bâtit ensemble."
-
-#### [EN] English Script
-> "If you want to invest in your first duplex or triplex here in Montreal or Laval, this is for you. 
-> 
-> I believe there aren't enough spaces for us to analyze local deals, discuss cashflow, and understand TAL housing laws transparently and without filters. So, we built it. 
-> 
-> We are bringing together motivated future real estate investors for hands-on workshops. No theoretical talk, no overpriced courses costing thousands. **We open Excel and analyze everything: how to buy a plex before you feel ready, the 'Flip vs Hold' debate, or the truth about building multi-generational wealth.** Just real MLS deal analysis, real cashflow calculations, and real-world field experience. 
-> 
-> I'm Veronica Pillay, founder of Capital Immo Plus. We are building the most active and solid real estate investor community in town. 
-> 
-> If you want to be in the room for our next free practical workshop... don't wait for another ad to pop up. Join our free Private Invite List below. That's where we send invitations first. We build together."
-
----
-
-### Ad Metadata (Bilingual)
-* **[FR] Headline**: Investir dans ton premier duplex/triplex? 📊
-* **[FR] Description**: Rejoins notre liste d'invitation privée.
-* **[EN] Headline**: Investing in your first duplex/triplex? 📊
-* **[EN] Description**: Join our private invitation list.
-* **CTA Button**: Learn More / En savoir plus
