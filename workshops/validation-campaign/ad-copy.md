@@ -128,31 +128,35 @@ A clean, modern, split-image graphic:
 
 ### Video Script (Bilingual Tracks)
 
-#### [EN] English Script
-> "Hey, if you are currently renting in Montreal or Laval and dreaming of buying your first home, let’s be honest: the market right now feels intimidating. Interest rates are high, prices are confusing, and it feels like the goalpost keeps moving. 
+#### [FR] French Script (Afro Business Club Structure)
+> "Si tu es locataire ici à Montréal ou à Laval, et que tu rêves d'acheter ta première propriété, c'est pour toi. 
 > 
-> I’m Veronica Pillay from Capital Immo Plus, and I’m building a room for people just like you. It's called the **Capital Immo Community**. 
+> Je crois qu'il n'y a pas assez d'espace pour nous rencontrer, poser nos questions et parler d'immobilier de façon transparente, sans pression d'achat. Alors on l'a bâti. 
 > 
-> My goal is to host free, in-person workshops where we break down the exact strategies you need to prepare your finances, avoid common mistakes, and buy your first property safely in today's market. 
+> On est en train de réunir les futurs acheteurs les plus ambitieux de la région pour nos ateliers en personne. Pas de blabla de courtier ou de jargon financier. Juste des vrais chiffres, de la vraie préparation financière et du concret pour débloquer ton premier achat. 
 > 
-> We are officially launching the waitlist today. Click the link below, secure your spot, and let’s start building your path to homeownership together. See you inside!"
+> Je suis Veronica Pillay, fondatrice de Capital Immo Plus. On bâtit la communauté de futurs propriétaires la plus solide en ville. 
+> 
+> Si tu veux être dans la salle pour notre prochain atelier gratuit... n'attends pas de voir passer la pub. Rejoins gratuitement notre Liste d'Invitation Privée ci-dessous. C'est là qu'on envoie les invitations et les places en premier. On bâtit ensemble."
 
-#### [FR] French Script
-> "Bonjour, si vous louez actuellement à Montréal ou à Laval et que vous rêvez d'acheter votre première maison, soyons honnêtes : le marché actuel est intimidant. Les taux d'intérêt sont élevés, les prix sont déroutants, et on a l'impression que les règles changent tout le temps.
+#### [EN] English Script
+> "If you are currently renting here in Montreal or Laval and dream of buying your first home, this is for you. 
 > 
-> Je m'appelle Veronica Pillay de Capital Immo Plus, et je crée un espace pour les gens comme vous : la **Communauté Capital Immo**.
+> I believe there aren't enough spaces for us to meet, ask questions, and talk about real estate transparently, without sales pressure. So, we built it. 
 > 
-> Mon objectif est d'organiser des ateliers présentiels gratuits où nous décortiquons les stratégies exactes pour préparer vos finances, éviter les erreurs coûteuses et acheter votre premier toit en toute sécurité.
+> We are bringing together the most ambitious future home buyers in the area for our in-person workshops. No broker talk, no complex financial jargon. Just real numbers, real financial preparation, and concrete steps to unlock your first purchase. 
 > 
-> Nous ouvrons officiellement la liste d'attente aujourd'hui. Cliquez sur le lien ci-dessous pour réserver votre place, et construisons ensemble votre chemin vers la propriété. À bientôt !"
+> I'm Veronica Pillay, founder of Capital Immo Plus. We are building the strongest community of future homeowners in town. 
+> 
+> If you want to be in the room for our next free workshop... don't wait for another ad to pop up. Join our free Private Invite List below. That's where we send invites and seats first. We build together."
 
 ---
 
 ### Ad Metadata (Bilingual)
-* **[EN] Headline**: Buying your first home in Quebec? 🔑
-* **[EN] Description**: Join the community waitlist for free local workshops.
-* **[FR] Headline**: Acheter votre premier foyer au Québec ? 🔑
-* **[FR] Description**: Rejoignez notre liste d'attente pour nos ateliers gratuits.
+* **[FR] Headline**: Acheter ton premier foyer à Mtl/Laval? 🔑
+* **[FR] Description**: Rejoins notre liste d'invitation privée.
+* **[EN] Headline**: Buying your first home in Mtl/Laval? 🔑
+* **[EN] Description**: Join our private invitation list.
 * **CTA Button**: Sign Up / S'inscrire
 
 ---
@@ -170,29 +174,33 @@ A clean, modern, split-image graphic:
 
 ### Video Script (Bilingual Tracks)
 
-#### [EN] English Script
-> "Ever thought about investing in Quebec real estate, but you feel stuck because you don't know how to run the numbers? Or maybe you're afraid of tenant laws, or buying a property that ends up costing you more than it makes?
+#### [FR] French Script (Afro Business Club Structure)
+> "Si tu veux investir dans ton premier duplex ou triplex ici à Montréal ou à Laval, c'est pour toi. 
 > 
-> You're not alone. I'm Veronica Pillay, and I'm launching the **Capital Immo Community** to bring together aspiring real estate investors right here in Montreal and Laval.
+> Je crois qu'il n'y a pas assez d'espace pour analyser des deals locaux, parler de cashflow et comprendre les lois du TAL de façon transparente et sans filtre. Alors on l'a bâti. 
 > 
-> I will be hosting free workshops where we will look at real local deals, analyze duplexes and triplexes step-by-step, and demystify the numbers so you can invest with absolute confidence. No theory, just real-world experience.
+> On est en train de rassembler des futurs investisseurs immobiliers déterminés pour des ateliers pratiques. Pas de blabla théorique ou de formations bidon à des milliers de dollars. Juste de la vraie analyse de fiches MLS, des calculs de rentabilité réels et du partage d'expérience terrain. 
 > 
-> The waitlist is open. If you're serious about building long-term wealth, click below to join us. Let's make your first investment a success!"
+> Je suis Veronica Pillay, fondatrice de Capital Immo Plus. On est en train de bâtir la communauté d'investisseurs immobiliers la plus active et solide en ville. 
+> 
+> Si tu veux être dans la salle pour notre prochain atelier pratique gratuit... n'attends pas de voir passer la pub. Rejoins gratuitement notre Liste d'Invitation Privée ci-dessous. C'est là qu'on envoie les invitations en premier. On bâtit ensemble."
 
-#### [FR] French Script
-> "Vous pensez investir en immobilier au Québec, mais vous hésitez parce que vous ne savez pas comment analyser les chiffres ? Ou peut-être que les lois sur le logement ou la peur d'acheter un gouffre financier vous freinent ?
+#### [EN] English Script
+> "If you want to invest in your first duplex or triplex here in Montreal or Laval, this is for you. 
 > 
-> Vous n'êtes pas seul. Je m'appelle Veronica Pillay, et je lance la **Communauté Capital Immo** pour rassembler les futurs investisseurs ici même à Montréal et Laval.
+> I believe there aren't enough spaces for us to analyze local deals, discuss cashflow, and understand TAL housing laws transparently and without filters. So, we built it. 
 > 
-> Je vais animer des ateliers gratuits où nous analyserons des opportunités locales réelles, étape par étape, pour démystifier les duplex et triplex afin que vous investissiez en toute confiance. Pas de théorie abstraite, juste de la vraie pratique.
+> We are bringing together motivated future real estate investors for hands-on workshops. No theoretical talk, no overpriced courses costing thousands. Just real MLS deal analysis, real cashflow calculations, and real-world field experience. 
 > 
-> La liste d'attente est ouverte. Si vous voulez sérieusement bâtir votre patrimoine, cliquez ci-dessous pour nous rejoindre. Faisons de votre premier investissement un succès !"
+> I'm Veronica Pillay, founder of Capital Immo Plus. We are building the most active and solid real estate investor community in town. 
+> 
+> If you want to be in the room for our next free practical workshop... don't wait for another ad to pop up. Join our free Private Invite List below. That's where we send invitations first. We build together."
 
 ---
 
 ### Ad Metadata (Bilingual)
-* **[EN] Headline**: Want to invest in duplexes/triplexes? 📊
-* **[EN] Description**: Join the waitlist for free investor workshops.
-* **[FR] Headline**: Investir dans un duplex ou triplex ? 📊
-* **[FR] Description**: Rejoignez la liste d'attente pour nos ateliers d'investissement.
+* **[FR] Headline**: Investir dans ton premier duplex/triplex? 📊
+* **[FR] Description**: Rejoins notre liste d'invitation privée.
+* **[EN] Headline**: Investing in your first duplex/triplex? 📊
+* **[EN] Description**: Join our private invitation list.
 * **CTA Button**: Learn More / En savoir plus
