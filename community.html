@@ -377,18 +377,6 @@
 				setLanguage(current === "fr" ? "en" : "fr");
 			});
 		}
-
-		// Klaviyo form submit integration to fire Facebook Pixel Lead event
-		window.addEventListener("klaviyoForms", function(e) { 
-			if (e.detail.type == 'submit') { 
-				if (window.fbq) {
-					fbq('track', 'Lead', {
-						content_category: 'Waitlist',
-						content_name: 'Klaviyo Submission'
-					});
-				}
-			} 
-		});
 	</script>
 	<script async type='text/javascript' src='https://static.klaviyo.com/onsite/js/XPVaUw/klaviyo.js?company_id=XPVaUw'></script>
 </body>
