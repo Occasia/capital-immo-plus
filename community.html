@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Capital Immo Community – Ateliers & Communauté Immobilière</title>
+	<link rel="icon" type="image/png" href="./images/logo.png" />
+
+	<!-- Tailwind CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+	<script src="https://cdn.tailwindcss.com"></script>
+	
+	<!-- FontAwesome for Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+	<script>
+		tailwind.config = {
+			theme: {
+				extend: {
+					fontFamily: {
+						sans: ["Inter", "ui-sans-serif", "system-ui"],
+					},
+					colors: {
+						brand: {
+							DEFAULT: "#111827", // gray-900
+							accent: "#0EA5E9", // sky-500
+						},
+					},
+					boxShadow: {
+						card: "0 4px 14px rgb(0 0 0 / 8%)",
+					},
+				},
+			},
+			future: { hoverOnlyWhenSupported: true },
+		};
+	</script>
+	<meta name="description" content="Rejoignez la communauté de futurs acheteurs et investisseurs à Montréal et Laval. Des ateliers pratiques et gratuits pour prendre des décisions intelligentes." />
+	
+	<!-- Facebook Pixel Code -->
+	<script>
+		!function(f,b,e,v,n,t,s)
+		{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+		n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+		if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+		n.queue=[];t=b.createElement(e);t.async=!0;
+		t.src=v;s=b.getElementsByTagName(e)[0];
+		s.parentNode.insertBefore(t,s)}(window,document,'script',
+		'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1976441129059772'); 
+		fbq('track', 'PageView');
+	</script>
+	<noscript>
+		<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1976441129059772&ev=PageView&noscript=1"/>
+	</noscript>
+	<!-- End Facebook Pixel Code -->
+</head>
+
+<body class="min-h-screen bg-white text-gray-800 font-sans antialiased selection:bg-black selection:text-white">
+	<!-- Navigation -->
+	<header class="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-100">
+		<nav class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+			<a href="index.html" class="flex items-center gap-2 font-extrabold tracking-tight text-xl transition text-gray-900">
+				<img src="./images/logo.png" alt="Capital Immo Plus" class="h-10 w-auto" />
+				<span class="font-sans font-bold text-base md:text-lg tracking-wide uppercase">Capital <span class="text-brand-accent">Immo</span> Community</span>
+			</a>
+			<div class="flex items-center gap-3">
+				<button id="langToggle" type="button"
+					class="inline-flex items-center rounded-md border border-gray-300 bg-white px-3 py-1.5 text-xs font-semibold text-gray-900 hover:bg-gray-50 transition">EN</button>
+			</div>
+		</nav>
+	</header>
+
+	<!-- Hero -->
+	<section id="top" class="relative min-h-[60vh] md:min-h-[70vh] flex items-center justify-center py-20 text-center overflow-hidden">
+		<!-- Background Image & Overlay -->
+		<div class="absolute inset-0 z-0">
+			<img src="./images/real-estate.jpg" alt="Real estate discussion" class="w-full h-full object-cover" />
+			<div class="absolute inset-0 bg-gray-950/80 z-10"></div>
+		</div>
+
+		<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 relative z-20">
+			<h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight">
+				Capital Immo Community
+				<span class="text-xl sm:text-2xl font-semibold block mt-4 text-brand-accent" data-i18n="hero_tagline">Apprendre. Connecter. Bâtir.</span>
+			</h1>
+			<p class="mt-6 text-gray-300 max-w-2xl mx-auto text-lg leading-relaxed" data-i18n="hero_subtitle">
+				Rejoignez la communauté de futurs acheteurs et investisseurs à Montréal et Laval. Des ateliers pratiques et gratuits pour prendre des décisions immobilières intelligentes.
+			</p>
+			<div class="mt-10 flex justify-center">
+				<a href="#join"
+					class="inline-flex items-center justify-center rounded-md bg-brand-accent hover:bg-sky-400 text-white font-bold text-sm sm:text-base px-8 py-3.5 shadow-lg transition transform hover:-translate-y-0.5 uppercase tracking-wider">
+					<span data-i18n="cta_button">Rejoindre la liste d'attente</span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- INTRO & CAPTURE FORM -->
+	<section id="join" class="py-16 md:py-24 bg-white scroll-mt-16">
+		<div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+			<div class="text-center mb-12">
+				<h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight" data-i18n="intro_heading">
+					Bâtissons votre avenir immobilier, ensemble.
+				</h2>
+				<p class="mt-4 text-lg text-gray-600 leading-relaxed" data-i18n="intro_body">
+					La Communauté Capital Immo est un espace d'entraide conçu pour les locataires, futurs premiers acheteurs et aspirants investisseurs. Notre but ? Vous donner les clés du marché immobilier québécois à travers des ateliers interactifs sans jargon ni pitch de vente.
+				</p>
+			</div>
+
+			<!-- Waitlist Form Card -->
+			<div class="bg-gray-50 rounded-2xl border border-gray-200 shadow-card p-6 sm:p-10 md:p-12 relative">
+				<div class="absolute top-0 left-0 w-full h-1 bg-brand-accent rounded-t-2xl"></div>
+				
+				<div class="text-center mb-8">
+					<h3 class="text-xl font-bold text-gray-900" data-i18n="form_title">Réservez votre place prioritaire</h3>
+					<p class="text-sm text-gray-500 mt-2" data-i18n="form_subtitle">Rejoignez la liste d'attente pour être informé en premier de nos prochains ateliers en personne. Places limitées.</p>
+				</div>
+				
+				<form id="waitlistForm" class="space-y-5">
+					<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+						<div>
+							<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1" data-i18n="label_fname">Prénom</label>
+							<input type="text" name="first_name" required placeholder="John" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
+						</div>
+						<div>
+							<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1" data-i18n="label_lname">Nom</label>
+							<input type="text" name="last_name" required placeholder="Doe" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
+						</div>
+					</div>
+					<div>
+						<label class="block text-xs font-bold text-gray-700 tracking-wider uppercase mb-1" data-i18n="label_email">Adresse courriel</label>
+						<input type="email" name="email" required placeholder="john.doe@example.com" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
+					</div>
+					<div>
+						<label class="block text-xs font-bold text-gray-700 tracking-wider uppercase mb-1" data-i18n="label_phone">Numéro de téléphone</label>
+						<input type="tel" name="phone" required placeholder="(514) 123-4567" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
+					</div>
+					<div>
+						<label class="block text-xs font-bold text-gray-700 tracking-wider uppercase mb-1" data-i18n="label_goal">Quel est votre objectif principal ?</label>
+						<select name="goal" required class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
+							<option value="first-home" data-i18n="goal_option1">Acheter ma première maison / condo</option>
+							<option value="investing" data-i18n="goal_option2">Investir en immobilier (duplex/triplex...)</option>
+							<option value="both" data-i18n="goal_option3">Les deux</option>
+						</select>
+					</div>
+					
+					<button type="submit" class="w-full bg-brand-DEFAULT hover:bg-gray-800 text-white font-bold py-3.5 px-6 rounded-md transition duration-200 shadow uppercase tracking-wider mt-2">
+						<span data-i18n="form_submit_btn">Rejoindre la liste d'attente 🔑</span>
+					</button>
+				</form>
+
+				<!-- Success Message (Hidden initially) -->
+				<div id="successMessage" class="hidden text-center py-6">
+					<div class="text-4xl text-brand-accent mb-4">
+						<i class="fa-solid fa-circle-check"></i>
+					</div>
+					<h4 class="text-2xl font-bold text-gray-900 mb-2" data-i18n="success_title">Vous êtes sur la liste d'attente !</h4>
+					<p class="text-gray-600 max-w-md mx-auto mb-6" data-i18n="success_desc">Merci pour votre inscription. Un e-mail de confirmation contenant votre Fiche d'Analyse Immobilière gratuite vous a été envoyé.</p>
+					<button type="button" id="resetFormBtn" class="inline-flex border border-gray-300 hover:bg-gray-100 text-gray-700 font-semibold px-6 py-2 rounded-md transition text-sm">
+						← <span data-i18n="success_back">Retour</span>
+					</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- WHAT TO EXPECT -->
+	<section class="py-16 md:py-24 bg-gray-50 border-t border-b border-gray-100">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+				
+				<!-- Column 1 -->
+				<div class="bg-white rounded-xl border border-gray-200 p-8 shadow-card text-center">
+					<div class="w-12 h-12 bg-sky-50 rounded-full flex items-center justify-center mx-auto mb-6 text-brand-accent">
+						<i class="fa-solid fa-chalkboard-user text-xl"></i>
+					</div>
+					<h3 class="text-xl font-bold text-gray-900 mb-3" data-i18n="stats_members_title">Ateliers Pratiques</h3>
+					<p class="text-gray-600 leading-relaxed text-sm" data-i18n="stats_members_body">
+						Des sessions interactives axées sur les chiffres réels du marché, le financement et l'analyse de duplex/triplex.
+					</p>
+				</div>
+
+				<!-- Column 2 -->
+				<div class="bg-white rounded-xl border border-gray-200 p-8 shadow-card text-center">
+					<div class="w-12 h-12 bg-sky-50 rounded-full flex items-center justify-center mx-auto mb-6 text-brand-accent">
+						<i class="fa-solid fa-people-group text-xl"></i>
+					</div>
+					<h3 class="text-xl font-bold text-gray-900 mb-3" data-i18n="events_title">Réseau Local</h3>
+					<p class="text-gray-600 leading-relaxed text-sm" data-i18n="events_body">
+						Rencontrez d'autres acheteurs ambitieux de Montréal et Laval et partagez vos expériences en toute simplicité.
+					</p>
+				</div>
+
+				<!-- Column 3 -->
+				<div class="bg-white rounded-xl border border-gray-200 p-8 shadow-card text-center">
+					<div class="w-12 h-12 bg-sky-50 rounded-full flex items-center justify-center mx-auto mb-6 text-brand-accent">
+						<i class="fa-solid fa-handshake-simple text-xl"></i>
+					</div>
+					<h3 class="text-xl font-bold text-gray-900 mb-3" data-i18n="connections_title">100% Gratuit</h3>
+					<p class="text-gray-600 leading-relaxed text-sm" data-i18n="connections_body">
+						Pas de frais cachés, pas de pitchs sous pression. Des conseils concrets basés sur l'expérience du monde réel.
+					</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<!-- PILLARS -->
+	<section class="py-16 md:py-24 bg-white">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+			<div class="text-center mb-16">
+				<h2 class="text-3xl font-extrabold text-gray-900 tracking-tight" data-i18n="pillars_heading">Un espace pour chaque projet immobilier.</h2>
+				<div class="w-16 h-1 bg-brand-accent mx-auto mt-4 rounded"></div>
+			</div>
+
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+				<!-- Column 1: Pillar A -->
+				<div class="bg-white p-8 rounded-xl border border-gray-200 shadow-card relative">
+					<div class="absolute top-0 left-0 w-full h-1 bg-brand-accent rounded-t-xl"></div>
+					<div>
+						<div class="mb-4">
+							<span class="bg-sky-50 text-brand-accent text-xs font-bold px-3 py-1.5 rounded-md uppercase tracking-wider" data-i18n="pillar1_badge">Acheteurs</span>
+						</div>
+						<h3 class="text-xl font-bold mb-6 text-gray-900" data-i18n="pillar1_title">Premiers Acheteurs</h3>
+						
+						<div class="space-y-4 text-sm text-gray-600">
+							<p><span class="font-bold text-gray-900" data-i18n="label_vibe">Le Vibe:</span> <span data-i18n="pillar1_vibe">Accessible, clair et pas-à-pas.</span></p>
+							<p><span class="font-bold text-gray-900" data-i18n="label_for">Pour:</span> <span data-i18n="pillar1_for">Locataires prêts à devenir propriétaires.</span></p>
+							<div class="pt-4 border-t border-gray-150">
+								<span class="font-bold text-gray-900 block mb-1" data-i18n="label_promise">La promesse:</span>
+								<p class="italic text-gray-500" data-i18n="pillar1_promise">Apprenez à préparer vos finances, calculer votre mise de fonds et éviter les pièges du marché québécois actuel.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Column 2: Pillar B -->
+				<div class="bg-white p-8 rounded-xl border border-gray-200 shadow-card relative">
+					<div class="absolute top-0 left-0 w-full h-1 bg-brand-accent rounded-t-xl"></div>
+					<div>
+						<div class="mb-4">
+							<span class="bg-sky-50 text-brand-accent text-xs font-bold px-3 py-1.5 rounded-md uppercase tracking-wider" data-i18n="pillar2_badge">Investissement</span>
+						</div>
+						<h3 class="text-xl font-bold mb-6 text-gray-900" data-i18n="pillar2_title">Futurs Investisseurs</h3>
+						
+						<div class="space-y-4 text-sm text-gray-600">
+							<p><span class="font-bold text-gray-900" data-i18n="label_vibe_2">Le Vibe:</span> <span data-i18n="pillar2_vibe">Chiffres ouverts & analytique.</span></p>
+							<p><span class="font-bold text-gray-900" data-i18n="label_for_2">Pour:</span> <span data-i18n="pillar2_for">Ceux qui veulent acheter un duplex ou triplex.</span></p>
+							<div class="pt-4 border-t border-gray-150">
+								<span class="font-bold text-gray-900 block mb-1" data-i18n="label_promise_2">La promesse:</span>
+								<p class="italic text-gray-500" data-i18n="pillar2_promise">Maîtrisez l'analyse de cashflow, comprenez le calcul de rentabilité et appréhendez les lois du Tribunal administratif du logement (TAL).</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- FINAL CTA -->
+	<section class="py-20 bg-gray-950 text-white relative overflow-hidden">
+		<div class="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center relative z-10">
+			<h2 class="text-3xl md:text-4xl font-extrabold mb-4" data-i18n="cta_heading">
+				Prenez le contrôle de votre avenir financier.
+			</h2>
+			<p class="text-lg text-gray-400 mb-10 font-light max-w-2xl mx-auto" data-i18n="cta_body">
+				Que vous souhaitiez acheter votre première maison ou bâtir un patrimoine immobilier, tout commence par les bonnes bases. Rejoignez-nous.
+			</p>
+			<a href="#join" class="inline-flex items-center justify-center rounded-md bg-white hover:bg-gray-100 text-gray-950 font-bold text-sm px-8 py-3.5 shadow-lg transition transform hover:-translate-y-0.5 uppercase tracking-wider">
+				<span data-i18n="cta_button">Rejoindre la liste d'attente</span>
+			</a>
+		</div>
+	</section>
+
+	<!-- FOOTER -->
+	<footer class="border-t border-gray-100 mt-0 py-12 bg-white">
+		<div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+			<div class="flex items-center gap-2 font-bold text-gray-900 tracking-wide uppercase text-sm">
+				<img src="./images/logo.png" alt="Capital Immo Plus" class="h-6 w-auto" />
+				Capital Immo Community
+			</div>
+			<div class="text-xs text-gray-500 flex flex-wrap gap-4 justify-center">
+				<a href="privacy.html" class="hover:text-black transition" data-i18n="footer_privacy">Politique de confidentialité</a>
+				<span data-i18n="footer_rights">&copy; 2026 Capital Immo Community. Tous droits réservés.</span>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script>
+		const I18N = {
+			fr: {
+				page_title: "Capital Immo Community – Ateliers & Communauté Immobilière",
+				hero_tagline: "Apprendre. Connecter. Bâtir.",
+				hero_subtitle: "Rejoignez la communauté de futurs acheteurs et investisseurs à Montréal et Laval. Des ateliers pratiques et gratuits pour prendre des décisions immobilières intelligentes.",
+				cta_button: "Rejoindre la liste d'attente",
+				intro_heading: "Bâtissons votre avenir immobilier, ensemble.",
+				intro_body: "La Communauté Capital Immo est un espace d'entraide conçu pour les locataires, futurs premiers acheteurs et aspirants investisseurs. Notre but ? Vous donner les clés du marché immobilier québécois à travers des ateliers interactifs sans jargon ni pitch de vente.",
+				form_title: "Réservez votre place prioritaire",
+				form_subtitle: "Rejoignez la liste d'attente pour être informé en premier de nos prochains ateliers en personne. Places limitées.",
+				label_fname: "Prénom",
+				label_lname: "Nom",
+				label_email: "Adresse courriel",
+				label_phone: "Numéro de téléphone",
+				label_goal: "Quel est votre objectif principal ?",
+				goal_option1: "Acheter ma première maison / condo",
+				goal_option2: "Investir en immobilier (duplex/triplex...)",
+				goal_option3: "Les deux",
+				form_submit_btn: "Rejoindre la liste d'attente 🔑",
+				success_title: "Vous êtes sur la liste d'attente !",
+				success_desc: "Merci pour votre inscription. Un e-mail de confirmation contenant votre Fiche d'Analyse Immobilière gratuite vous a été envoyé.",
+				success_back: "Retour",
+				stats_members_title: "Ateliers Pratiques",
+				stats_members_body: "Des sessions interactives axées sur les chiffres réels du marché, le financement et l'analyse de duplex/triplex.",
+				events_title: "Réseau Local",
+				events_body: "Rencontrez d'autres acheteurs ambitieux de Montréal et Laval et partagez vos expériences en toute simplicité.",
+				connections_title: "100% Gratuit",
+				connections_body: "Pas de frais cachés, pas de pitchs sous pression. Des conseils concrets basés sur l'expérience du monde réel.",
+				pillars_heading: "Un espace pour chaque projet immobilier.",
+				pillar1_badge: "Acheteurs",
+				pillar1_title: "Premiers Acheteurs",
+				label_vibe: "Le Vibe:",
+				pillar1_vibe: "Accessible, clair et pas-à-pas.",
+				label_for: "Pour:",
+				pillar1_for: "Locataires prêts à devenir propriétaires.",
+				label_promise: "La promesse:",
+				pillar1_promise: "Apprenez à préparer vos finances, calculer votre mise de fonds et éviter les pièges du marché québécois actuel.",
+				pillar2_badge: "Investissement",
+				pillar2_title: "Futurs Investisseurs",
+				label_vibe_2: "Le Vibe:",
+				pillar2_vibe: "Chiffres ouverts & analytique.",
+				label_for_2: "Pour:",
+				pillar2_for: "Ceux qui veulent acheter un duplex ou triplex.",
+				label_promise_2: "La promesse:",
+				pillar2_promise: "Maîtrisez l'analyse de cashflow, comprenez le calcul de rentabilité et appréhendez les lois du Tribunal administratif du logement (TAL).",
+				cta_heading: "Prenez le contrôle de votre avenir financier.",
+				cta_body: "Que vous souhaitiez acheter votre première maison ou bâtir un patrimoine immobilier, tout commence par les bonnes bases. Rejoignez-nous.",
+				footer_privacy: "Politique de confidentialité",
+				footer_rights: "© 2026 Capital Immo Community. Tous droits réservés."
+			},
+			en: {
+				page_title: "Capital Immo Community – Workshops & Real Estate Community",
+				hero_tagline: "Learn. Connect. Build.",
+				hero_subtitle: "Join the community of future home buyers and investors in Montreal and Laval. Practical, free workshops to help you make smart real estate decisions.",
+				cta_button: "Join the Waitlist",
+				intro_heading: "Let's build your real estate future, together.",
+				intro_body: "The Capital Immo Community is a collaborative space designed for tenants, first-time home buyers, and aspiring investors. Our mission? To demystify the Quebec real estate market through interactive, jargon-free workshops.",
+				form_title: "Claim Your Priority Spot",
+				form_subtitle: "Join the waitlist to be notified first when our next in-person workshops open. Seats are limited.",
+				label_fname: "First Name",
+				label_lname: "Last Name",
+				label_email: "Email Address",
+				label_phone: "Phone Number",
+				label_goal: "What is your primary goal?",
+				goal_option1: "Buy my first home / condo",
+				goal_option2: "Invest in real estate (duplex/triplex...)",
+				goal_option3: "Both",
+				form_submit_btn: "Join the Waitlist 🔑",
+				success_title: "You are on the waitlist!",
+				success_desc: "Thank you for registering. A confirmation email containing your free Quebec Property Analysis Sheet has been sent.",
+				success_back: "Back",
+				stats_members_title: "Practical Workshops",
+				stats_members_body: "Interactive sessions focused on real market numbers, financing strategies, and duplex/triplex analysis.",
+				events_title: "Local Network",
+				events_body: "Connect with other ambitious buyers in Montreal and Laval to share experiences and learn together.",
+				connections_title: "100% Free",
+				connections_body: "No hidden fees, no high-pressure sales pitches. Just concrete advice built on real-world investing experience.",
+				pillars_heading: "A Space for Every Real Estate Goal",
+				pillar1_badge: "Buyers",
+				pillar1_title: "First-Time Home Buyers",
+				label_vibe: "The Vibe:",
+				pillar1_vibe: "Accessible, clear, and step-by-step.",
+				label_for: "For:",
+				pillar1_for: "Renters ready to transition to ownership.",
+				label_promise: "The Promise:",
+				pillar1_promise: "Learn how to prepare your finances, calculate your down payment, and safely purchase your first home in today's market.",
+				pillar2_badge: "Investing",
+				pillar2_title: "Future Investors",
+				label_vibe_2: "The Vibe:",
+				pillar2_vibe: "Numbers-driven & analytical.",
+				label_for_2: "For:",
+				pillar2_for: "Those aiming to purchase multiplex properties.",
+				label_promise_2: "The Promise:",
+				pillar2_promise: "Master cashflow calculations, learn how to run deal analysis, and understand Quebec tenant laws (TAL).",
+				cta_heading: "Take control of your financial future.",
+				cta_body: "Whether you want to buy your first home or start building a real estate portfolio, it all starts with the right foundation. Join us.",
+				footer_privacy: "Privacy Policy",
+				footer_rights: "© 2026 Capital Immo Community. All rights reserved."
+			}
+		};
+
+		function setLanguage(lang) {
+			const dict = I18N[lang] || I18N.fr;
+			document.documentElement.lang = lang;
+			document.title = dict.page_title;
+
+			document.querySelectorAll("[data-i18n]").forEach((el) => {
+				const key = el.getAttribute("data-i18n");
+				if (!key || dict[key] == null) return;
+				el.textContent = dict[key];
+			});
+
+			const toggle = document.getElementById("langToggle");
+			if (toggle) {
+				toggle.textContent = lang === "fr" ? "EN" : "FR";
+				toggle.setAttribute("aria-label", lang === "fr" ? "Switch to English" : "Passer en français");
+			}
+
+			try {
+				localStorage.setItem("capital_immo_lang", lang);
+			} catch {}
+		}
+
+		function getInitialLanguage() {
+			try {
+				const saved = localStorage.getItem("capital_immo_lang");
+				if (saved === "en" || saved === "fr") return saved;
+			} catch {}
+			const pref = (navigator.languages && navigator.languages.length ? navigator.languages[0] : navigator.language || 'fr').toLowerCase();
+			return pref.startsWith('fr') ? 'fr' : 'en';
+		}
+
+		// Initialize language
+		setLanguage(getInitialLanguage());
+		const langToggle = document.getElementById("langToggle");
+		if (langToggle) {
+			langToggle.addEventListener("click", () => {
+				const current = document.documentElement.lang === "en" ? "en" : "fr";
+				setLanguage(current === "fr" ? "en" : "fr");
+			});
+		}
+
+		// Form submission behavior
+		const waitlistForm = document.getElementById("waitlistForm");
+		const successMessage = document.getElementById("successMessage");
+		const resetFormBtn = document.getElementById("resetFormBtn");
+
+		waitlistForm.addEventListener("submit", function(e) {
+			e.preventDefault();
+			
+			const formData = new FormData(waitlistForm);
+			const data = {
+				first_name: formData.get("first_name"),
+				last_name: formData.get("last_name"),
+				email: formData.get("email"),
+				phone: formData.get("phone"),
+				goal: formData.get("goal")
+			};
+
+			console.log("Waitlist Form Submitted:", data);
+
+			if (window.fbq) {
+				fbq('track', 'Lead', {
+					content_category: 'Waitlist',
+					content_name: data.goal
+				});
+			}
+
+			waitlistForm.classList.add("hidden");
+			successMessage.classList.remove("hidden");
+		});
+
+		resetFormBtn.addEventListener("click", function() {
+			waitlistForm.reset();
+			waitlistForm.classList.remove("hidden");
+			successMessage.classList.add("hidden");
+		});
+	</script>
+</body>
+
+</html>
