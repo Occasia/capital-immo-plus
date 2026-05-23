@@ -128,27 +128,53 @@ A clean, modern, split-image graphic:
 
 ### Video Script (Bilingual Tracks)
 
-#### [FR] French Script
-> "Si tu es locataire ici à Montréal ou à Laval, et que tu rêves d'acheter ta première propriété, c'est pour toi. 
+#### [FR] French Script (Final Version)
+> "Beaucoup de locataires à Montréal pensent qu’ils ne pourront jamais acheter.
 > 
-> Je crois qu'il n'y a pas assez d'espace pour nous rencontrer, poser nos questions et parler d'immobilier de façon transparente, sans pression d'achat. Alors on l'a bâti. 
+> Et honnêtement… je les comprends.
 > 
-> On est en train de réunir les futurs acheteurs les plus ambitieux de la région pour nos ateliers en personne. Pas de blabla de courtier ou de jargon financier. **On va parler de thèmes concrets : comment acheter ta première propriété sans l'aide financière de ta famille, le coût caché de l'attente, ou comment déceler les vices cachés lors de l'inspection.** Juste des vrais chiffres, de la vraie préparation financière et du concret pour débloquer ton premier achat. 
+> Après plus de 10 ans comme courtière immobilière et investisseure, j’ai vu trop de gens retarder leur premier achat simplement parce qu’ils manquaient d’informations, de stratégie et du bon entourage.
 > 
-> Je suis Veronica Pillay, fondatrice de Capital Immo Plus. On bâtit la communauté de futurs propriétaires la plus solide en ville. 
+> Alors on a créé quelque chose de différent.
 > 
-> Si tu veux être dans la salle pour notre prochain atelier gratuit... n'attends pas de voir passer la pub. Rejoins gratuitement notre Liste d'Invitation Privée ci-dessous. C'est là qu'on envoie les invitations et les places en premier. On bâtit ensemble."
+> Un espace où les futurs acheteurs peuvent poser leurs vraies questions, comprendre ce qui les bloque réellement et repartir avec un vrai plan — sans pression et sans discours de vente.
+> 
+> Je suis Veronica Pillay, fondatrice de Capital Immo Plus.
+> 
+> Notre mission est de bâtir la plus grande communauté de futurs propriétaires à Montréal.
+> 
+> Des gens sérieux. Et des ateliers gratuits en personne pour enfin comprendre comment passer de :
+> “Je ne pense pas que ce soit possible pour moi.”
+> à
+> “OK… maintenant je sais exactement quoi faire.”
+> 
+> Si tu veux être dans la salle pour le prochain atelier, rejoins gratuitement notre Liste d’Invitation Privée ci-dessous.
+> 
+> Les invitations et les places sont envoyées en priorité à la liste. À très bientôt."
 
 #### [EN] English Script
-> "If you are currently renting here in Montreal or Laval and dream of buying your first home, this is for you. 
+> "Many renters in Montreal think they will never be able to buy.
 > 
-> I believe there aren't enough spaces for us to meet, ask questions, and talk about real estate transparently, without sales pressure. So, we built it. 
+> And honestly… I understand them.
 > 
-> We are bringing together the most ambitious future home buyers in the area for our in-person workshops. No broker talk, no complex financial jargon. **We will cover real topics: how to buy your first property without family money, the hidden cost of waiting, and the red flags to watch out for during inspections.** Just real numbers, real financial preparation, and concrete steps to unlock your first purchase. 
+> After more than 10 years as a real estate broker and investor, I’ve seen too many people delay their first purchase simply because they lacked information, strategy, and the right network.
 > 
-> I'm Veronica Pillay, founder of Capital Immo Plus. We are building the strongest community of future homeowners in town. 
+> So we created something different.
 > 
-> If you want to be in the room for our next free workshop... don't wait for another ad to pop up. Join our free Private Invite List below. That's where we send invites and seats first. We build together."
+> A space where future buyers can ask their real questions, understand what is really holding them back, and leave with a real plan — with no pressure and no sales pitch.
+> 
+> I'm Veronica Pillay, founder of Capital Immo Plus.
+> 
+> Our mission is to build the largest community of future homeowners in Montreal.
+> 
+> Serious people. And free in-person workshops to finally understand how to go from:
+> 'I don't think this is possible for me.'
+> to
+> 'OK… now I know exactly what to do.'
+> 
+> If you want to be in the room for the next workshop, join our free Private Invitation List below.
+> 
+> Invitations and seats are sent first to the list. See you very soon."
 
 ---
 
