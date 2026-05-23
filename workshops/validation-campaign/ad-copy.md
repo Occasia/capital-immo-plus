@@ -128,12 +128,12 @@ A clean, modern, split-image graphic:
 
 ### Video Script (Bilingual Tracks)
 
-#### [FR] French Script (Afro Business Club Structure)
+#### [FR] French Script
 > "Si tu es locataire ici à Montréal ou à Laval, et que tu rêves d'acheter ta première propriété, c'est pour toi. 
 > 
 > Je crois qu'il n'y a pas assez d'espace pour nous rencontrer, poser nos questions et parler d'immobilier de façon transparente, sans pression d'achat. Alors on l'a bâti. 
 > 
-> On est en train de réunir les futurs acheteurs les plus ambitieux de la région pour nos ateliers en personne. Pas de blabla de courtier ou de jargon financier. Juste des vrais chiffres, de la vraie préparation financière et du concret pour débloquer ton premier achat. 
+> On est en train de réunir les futurs acheteurs les plus ambitieux de la région pour nos ateliers en personne. Pas de blabla de courtier ou de jargon financier. **On va parler de thèmes concrets : comment acheter ta première propriété sans l'aide financière de ta famille, le coût caché de l'attente, ou comment déceler les vices cachés lors de l'inspection.** Juste des vrais chiffres, de la vraie préparation financière et du concret pour débloquer ton premier achat. 
 > 
 > Je suis Veronica Pillay, fondatrice de Capital Immo Plus. On bâtit la communauté de futurs propriétaires la plus solide en ville. 
 > 
@@ -144,7 +144,7 @@ A clean, modern, split-image graphic:
 > 
 > I believe there aren't enough spaces for us to meet, ask questions, and talk about real estate transparently, without sales pressure. So, we built it. 
 > 
-> We are bringing together the most ambitious future home buyers in the area for our in-person workshops. No broker talk, no complex financial jargon. Just real numbers, real financial preparation, and concrete steps to unlock your first purchase. 
+> We are bringing together the most ambitious future home buyers in the area for our in-person workshops. No broker talk, no complex financial jargon. **We will cover real topics: how to buy your first property without family money, the hidden cost of waiting, and the red flags to watch out for during inspections.** Just real numbers, real financial preparation, and concrete steps to unlock your first purchase. 
 > 
 > I'm Veronica Pillay, founder of Capital Immo Plus. We are building the strongest community of future homeowners in town. 
 > 
@@ -174,12 +174,12 @@ A clean, modern, split-image graphic:
 
 ### Video Script (Bilingual Tracks)
 
-#### [FR] French Script (Afro Business Club Structure)
+#### [FR] French Script
 > "Si tu veux investir dans ton premier duplex ou triplex ici à Montréal ou à Laval, c'est pour toi. 
 > 
 > Je crois qu'il n'y a pas assez d'espace pour analyser des deals locaux, parler de cashflow et comprendre les lois du TAL de façon transparente et sans filtre. Alors on l'a bâti. 
 > 
-> On est en train de rassembler des futurs investisseurs immobiliers déterminés pour des ateliers pratiques. Pas de blabla théorique ou de formations bidon à des milliers de dollars. Juste de la vraie analyse de fiches MLS, des calculs de rentabilité réels et du partage d'expérience terrain. 
+> On est en train de rassembler des futurs investisseurs immobiliers déterminés pour des ateliers pratiques. Pas de blabla théorique ou de formations bidon à des milliers de dollars. **On ouvre Excel et on décortique tout : comment acheter un plex avant de se sentir prêt, le débat 'Flip ou Hold', ou comment créer de la richesse multigénérationnelle.** Juste de la vraie analyse de fiches MLS, des calculs de rentabilité réels et du partage d'expérience terrain. 
 > 
 > Je suis Veronica Pillay, fondatrice de Capital Immo Plus. On est en train de bâtir la communauté d'investisseurs immobiliers la plus active et solide en ville. 
 > 
@@ -190,7 +190,7 @@ A clean, modern, split-image graphic:
 > 
 > I believe there aren't enough spaces for us to analyze local deals, discuss cashflow, and understand TAL housing laws transparently and without filters. So, we built it. 
 > 
-> We are bringing together motivated future real estate investors for hands-on workshops. No theoretical talk, no overpriced courses costing thousands. Just real MLS deal analysis, real cashflow calculations, and real-world field experience. 
+> We are bringing together motivated future real estate investors for hands-on workshops. No theoretical talk, no overpriced courses costing thousands. **We open Excel and analyze everything: how to buy a plex before you feel ready, the 'Flip vs Hold' debate, or the truth about building multi-generational wealth.** Just real MLS deal analysis, real cashflow calculations, and real-world field experience. 
 > 
 > I'm Veronica Pillay, founder of Capital Immo Plus. We are building the most active and solid real estate investor community in town. 
 > 
