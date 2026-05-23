@@ -126,50 +126,7 @@
 					<p class="text-sm text-gray-500 mt-2" data-i18n="form_subtitle">Rejoignez la liste d'attente pour être informé en premier de nos prochains ateliers en personne. Places limitées.</p>
 				</div>
 				
-				<form id="waitlistForm" class="space-y-5">
-					<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-						<div>
-							<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1" data-i18n="label_fname">Prénom</label>
-							<input type="text" name="first_name" required placeholder="John" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
-						</div>
-						<div>
-							<label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-1" data-i18n="label_lname">Nom</label>
-							<input type="text" name="last_name" required placeholder="Doe" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
-						</div>
-					</div>
-					<div>
-						<label class="block text-xs font-bold text-gray-700 tracking-wider uppercase mb-1" data-i18n="label_email">Adresse courriel</label>
-						<input type="email" name="email" required placeholder="john.doe@example.com" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
-					</div>
-					<div>
-						<label class="block text-xs font-bold text-gray-700 tracking-wider uppercase mb-1" data-i18n="label_phone">Numéro de téléphone</label>
-						<input type="tel" name="phone" required placeholder="(514) 123-4567" class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
-					</div>
-					<div>
-						<label class="block text-xs font-bold text-gray-700 tracking-wider uppercase mb-1" data-i18n="label_goal">Quel est votre objectif principal ?</label>
-						<select name="goal" required class="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-brand-accent/50 focus:border-brand-accent bg-white text-gray-900 transition">
-							<option value="first-home" data-i18n="goal_option1">Acheter ma première maison / condo</option>
-							<option value="investing" data-i18n="goal_option2">Investir en immobilier (duplex/triplex...)</option>
-							<option value="both" data-i18n="goal_option3">Les deux</option>
-						</select>
-					</div>
-					
-					<button type="submit" class="w-full bg-brand-DEFAULT hover:bg-gray-800 text-white font-bold py-3.5 px-6 rounded-md transition duration-200 shadow uppercase tracking-wider mt-2">
-						<span data-i18n="form_submit_btn">Rejoindre la liste d'attente 🔑</span>
-					</button>
-				</form>
-
-				<!-- Success Message (Hidden initially) -->
-				<div id="successMessage" class="hidden text-center py-6">
-					<div class="text-4xl text-brand-accent mb-4">
-						<i class="fa-solid fa-circle-check"></i>
-					</div>
-					<h4 class="text-2xl font-bold text-gray-900 mb-2" data-i18n="success_title">Vous êtes sur la liste d'attente !</h4>
-					<p class="text-gray-600 max-w-md mx-auto mb-6" data-i18n="success_desc">Merci pour votre inscription. Un e-mail de confirmation contenant votre Fiche d'Analyse Immobilière gratuite vous a été envoyé.</p>
-					<button type="button" id="resetFormBtn" class="inline-flex border border-gray-300 hover:bg-gray-100 text-gray-700 font-semibold px-6 py-2 rounded-md transition text-sm">
-						← <span data-i18n="success_back">Retour</span>
-					</button>
-				</div>
+				<div class="klaviyo-form-QNqpu8"></div>
 			</div>
 		</div>
 	</section>
@@ -441,40 +398,16 @@
 			});
 		}
 
-		// Form submission behavior
-		const waitlistForm = document.getElementById("waitlistForm");
-		const successMessage = document.getElementById("successMessage");
-		const resetFormBtn = document.getElementById("resetFormBtn");
-
-		waitlistForm.addEventListener("submit", function(e) {
-			e.preventDefault();
-			
-			const formData = new FormData(waitlistForm);
-			const data = {
-				first_name: formData.get("first_name"),
-				last_name: formData.get("last_name"),
-				email: formData.get("email"),
-				phone: formData.get("phone"),
-				goal: formData.get("goal")
-			};
-
-			console.log("Waitlist Form Submitted:", data);
-
-			if (window.fbq) {
-				fbq('track', 'Lead', {
-					content_category: 'Waitlist',
-					content_name: data.goal
-				});
-			}
-
-			waitlistForm.classList.add("hidden");
-			successMessage.classList.remove("hidden");
-		});
-
-		resetFormBtn.addEventListener("click", function() {
-			waitlistForm.reset();
-			waitlistForm.classList.remove("hidden");
-			successMessage.classList.add("hidden");
+		// Klaviyo form submit integration to fire Facebook Pixel Lead event
+		window.addEventListener("klaviyoForms", function(e) { 
+			if (e.detail.type == 'submit') { 
+				if (window.fbq) {
+					fbq('track', 'Lead', {
+						content_category: 'Waitlist',
+						content_name: 'Klaviyo Submission'
+					});
+				}
+			} 
 		});
 	</script>
 </body>
