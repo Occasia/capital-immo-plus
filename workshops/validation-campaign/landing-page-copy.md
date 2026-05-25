@@ -89,10 +89,10 @@ This document contains the bilingual (EN/FR) copywriting for the **Capital Immo 
 
 Immediately after a user submits the form, they enter the welcome automation.
 
-### Email 1: Welcome & Validation (Sent immediately)
+### Email 1: Welcome & Community Introduction (Sent immediately)
 
-* **Subject (EN)**: You are on the waitlist! Welcome to the Capital Immo Community 🔑
-* **Subject (FR)**: Vous êtes sur la liste d'attente ! Bienvenue dans la Communauté Capital Immo 🔑
+* **Subject (EN)**: Welcome to the Capital Immo Community 🔑
+* **Subject (FR)**: Bienvenue dans la Communauté Capital Immo 🔑
 * **Body (Bilingual)**:
   
   *(English version)*
@@ -100,13 +100,11 @@ Immediately after a user submits the form, they enter the welcome automation.
   
   Veronica here from Capital Immo Plus. 
   
-  Thank you for joining the **Capital Immo Community** waitlist! I created this community because I believe local buyers and new investors deserve transparent, practical knowledge—without the sales pitches or generic theories.
+  Thank you for joining the **Capital Immo Community** waitlist! I created this collaborative space for renters, future buyers, and aspiring investors in Montreal and Laval to connect, share experiences, and learn about real estate transparently and honestly.
   
-  We are currently locking down the venues in Montreal and Laval for our first free in-person workshops. As a waitlist member, **you will get 48 hours of early-access** to secure your ticket before they are released to the public.
+  We are currently finalizing the details and date for our next free in-person workshop. Since you are officially on our private invite list, you will receive the registration link and venue details first before we open it to the public.
   
-  In the meantime, I want to make sure you get value right away. I’ve attached our **Quebec Property Analysis Sheet** to this email. You can use it to run quick calculations on any duplex or triplex you see on Centris.
-  
-  Stay tuned—I’ll be reaching out in a few days with our event date announcements!
+  Keep an eye on your inbox—I will be reaching out very soon with the event announcements!
   
   Talk soon,
   
@@ -121,15 +119,13 @@ Immediately after a user submits the form, they enter the welcome automation.
   
   Ici Veronica de Capital Immo Plus.
   
-  Merci d'avoir rejoint la liste d'attente de la **Communauté Capital Immo** ! J'ai créé cette communauté parce que je crois que les acheteurs et les nouveaux investisseurs d'ici méritent des connaissances transparentes et pratiques — sans pitchs de vente ni théories abstraites.
+  Merci d'avoir rejoint la liste d'attente de la **Communauté Capital Immo** ! J'ai créé cet espace d'entraide pour rassembler les locataires, futurs premiers acheteurs et aspirants investisseurs de Montréal et Laval qui veulent échanger et s'approprier le marché immobilier en toute transparence.
   
-  Nous finalisons les réservations de salles à Montréal et à Laval pour nos premiers ateliers gratuits en personne. En tant que membre de la liste d'attente, **vous bénéficierez d'un accès anticipé de 48 heures** pour réserver votre place avant le public.
+  Nous finalisons actuellement l'organisation et la date de notre prochain atelier gratuit en personne. Tu es officiellement sur notre liste d'invitation privée, ce qui signifie que tu recevras tous les détails et ton lien d'inscription en priorité avant le grand public.
   
-  En attendant, je veux vous offrir de la valeur dès maintenant. J'ai joint notre **Fiche d'Analyse Immobilière du Québec** à ce courriel. Vous pouvez l'utiliser pour calculer rapidement la rentabilité de n'importe quel duplex ou triplex sur Centris.
+  Reste à l'affût, je te contacte très bientôt pour t'annoncer le lancement de notre prochain événement !
   
-  Restez à l'affût — je vous contacte dans quelques jours pour vous annoncer les dates de nos événements !
-  
-  À bientôt,
+  À très bientôt,
   
   **Veronica Pillay**  
   Fondatrice, Capital Immo Plus  
@@ -141,8 +137,8 @@ Immediately after a user submits the form, they enter the welcome automation.
 
 * **Text (Bilingual)**:
   
-  *Capital Immo Community*: Hi {{ contact.first_name }}! You're officially on the waitlist for our free Montreal/Laval workshops. Keep an eye on your email for your free Quebec Property Analysis Sheet. We'll text you as soon as dates are announced. Veronica 🔑
+  *Capital Immo Community*: Hi {{ contact.first_name }}! Thanks for joining our community waitlist. We are locking in the date for our next free workshop in Montreal/Laval and will text you with details very soon. Veronica 🔑
   
   ---
   
-  *Communauté Capital Immo* : Bonjour {{ contact.first_name }} ! Vous êtes sur la liste d'attente pour nos ateliers gratuits à Mtl/Laval. Surveillez vos courriels pour votre Fiche d'Analyse Immobilière gratuite. On vous texte dès que les dates sortent. Veronica 🔑
+  *Communauté Capital Immo* : Bonjour {{ contact.first_name }} ! Merci d'avoir rejoint notre liste d'attente. Nous finalisons la date du prochain atelier gratuit à Mtl/Laval et nous t'envoyons les détails par SMS très bientôt. Veronica 🔑
